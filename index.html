@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cielo Artuso Resume</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#hero__section">Cielo Artuso</a>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+            <ul class="menu">
+                <li>
+                    <a href="#profile">Chi sono</a>
+                </li>
+                <li>
+                    <a href="#formazione">Formazione</a>
+                </li>
+                <li>
+                    <a href="#skills">Competenze</a>
+                </li>
+                <li>
+                    <a href="#esperienze">Esperienze</a>
+                </li>
+                <li>
+                    <a href="#contatti">Contatti</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Sezione Hero -->
+        <section id="hero__section">
+            <div class="hero__section__text">
+                <h1>Cielo Artuso</h1>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="hero__section__img-social">
+                <!-- Immagine -->
+                <div class="hero__section__img">
+                    <img src="IMG_1737.jpg" alt="">
+                </div>
+                <!-- Social -->
+                <div class="hero__section__social">
+                    <ul>
+                        <li>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="bi bi-github"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="bi bi-envelope-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Breve Presentazione -->
+        <section id="profile">
+
+            <!-- Chi sono -->
+            <div>
+                <h2>Chi sono</h2>
+                <p>
+                    Sono un ragazzo di 24 anni, Junior Full Stack Developer con una
+                    forte motivazione verso lo sviluppo
+                    software e un’ottima capacità di
+                    apprendimento.
+                </p>
+                <p>
+                    Affronto le complessità con un
+                    approccio creativo e metodico,
+                    rendendomi pronto per gestire con
+                    successo progetti tecnici e innovativi.
+                </p>
+            </div>
+
+            <!-- Missione -->
+            <div>
+                <h2>La mia Mission</h2>
+                <p>
+                    Continuare a crescere come
+                    professionista nello sviluppo Full
+                    Stack, combinando creatività e
+                    competenze tecniche per contribuire
+                    alla realizzazione di soluzioni
+                    tecnologiche innovative, scalabili e di
+                    alta qualità che migliorino
+                    l'esperienza utente.
+                </p>
+            </div>
+        </section>
+
+        <!-- Informazioni: soft-skills | lingue | hobbies -->
+        <section id="info">
+            <div class="info__container">
+                <!-- Soft Skills -->
+                <div class="info__card soft-skills">
+                    <p class="info__title">Soft Skills</p>
+                    <ul>
+                        <li>Autogestione</li>
+                        <li>Organizzazione</li>
+                        <li>Creatività</li>
+                        <li>Curiosità</li>
+                        <li>Lavoro di squadra</li>
+                        <li>Adattamento</li>
+                        <li>Flessibilità</li>
+                    </ul>
+                </div>
+                <!-- Lingue -->
+                <div class="info__card lingue">
+                    <p class="info__title">Lingue</p>
+                    <ul>
+                        <li> Italiano - Madrelingua</li>
+                        <li> Inglese - B2 </li>
+                    </ul>
+                </div>
+                <!-- Hobbies -->
+                <div class="info__card hobby">
+                    <p class="info__title">Hobbies e Interessi</p>
+                    <ul>
+                        <li>
+                            Amo la natura e le camminate in
+                            montagna.
+                        </li>
+                        <li>
+                            Suono pianoforte e chitarra da
+                            autodidatta.
+                        </li>
+                        <li>
+                            Lavoro e intaglio il legno.
+                        </li>
+                        <li>
+                            Mi piace leggere e disegnare.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Percorso Formativo -->
+        <section id="formazione">
+            <h2>Formazione</h2>
+            <ul>
+                <li>
+                    <label for="galdus__toggle" class="formazione__card">
+                        <div class="formazione__card__icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <div class="formazione__card__info">
+                            <input type="checkbox" id="galdus__toggle">
+                            <label id="galdus__icon" for="galdus__toggle" class="formazione__card__info__label">
+                                <p class="formazione__card__date">
+                                    2024 - in corso
+                                </p>
+                                <p class="formazione__card__title">
+                                    IFTS Software Developer
+                                </p>
+                                <p class="formazione__card__school">
+                                    Galdus
+                                </p>
+                            </label>
+                            <p id="galdus__desc" class="formazione__card__description">
+                                Ho scelto di approfondire le mie conoscenze informatiche frequentando questo corso di
+                                sviluppo software. <br />
+                                Ho imparato tecniche di sviluppo del software, tecniche di progettazione e realizzazione
+                                di UI/UX, nozioni di base di networking e cloud e strategie per sicurezza del codice.
+                                <br />
+                                Tra i linguaggi di programmazione studiati vi sono Python e Java.
+                            </p>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label for="ifoa__toggle" class="formazione__card">
+                        <div class="formazione__card__icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <div class="formazione__card__info">
+                            <input type="checkbox" id="ifoa__toggle">
+                            <label id="ifoa__icon" for="ifoa__toggle" class="formazione__card__info__label">
+                                <p class="formazione__card__date">
+                                    2023 - 2024
+                                </p>
+                                <p class="formazione__card__title">
+                                    Corso Full Stack Developer
+                                </p>
+                                <p class="formazione__card__school">
+                                    Ifoa
+                                </p>
+                            </label>
+                            <p id="ifoa__desc" class="formazione__card__description">
+                                Ho appreso competenze in ambito sviluppo web a 360 gradi: dal Frontend con HTML, CSS e
+                                Javascript, includendo librerie come Bootstrap e Tailwind e approfondendo framework come
+                                React, al Backend con PHP e il suo framework Laravel; non poteva mancare infine lo
+                                sviluppo di Database con Mysql e lo studio di SQL.
+                            </p>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label for="iscuola__toggle" class="formazione__card">
+                        <div class="formazione__card__icon">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <div class="formazione__card__info">
+                            <input type="checkbox" id="iscuola__toggle">
+                            <label id="iscuola__icon" for="iscuola__toggle">
+                                <p class="formazione__card__date">
+                                    2023
+                                </p>
+                                <p class="formazione__card__title">
+                                    Diploma Indirizzo Tecnico Informatico
+                                </p>
+                                <p class="formazione__card__school">
+                                    iScuola
+                                </p>
+                            </label>
+                            <p id="iscuola__desc" class="formazione__card__description">
+                                Votazione 80/100
+                            </p>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Esperienze Lavorative -->
+        <section id="esperienze">
+            <h2>Esperienze Lavorative</h2>
+
+            <ul>
+                <li>
+
+                    <p class="esperienze__title">Corriere per Panificio</p>
+                    <p>2021 - 2022</p>
+
+                    <div class="esperienze__desc">
+                        <p>
+                            Il mio ruolo prevedeva la consegna dei prodotti
+                            dell’azienda la mattina presto tramite furgone; grazie a
+                            questo ho imparato a rispettare i tempi di consegne e
+                            ad autogestirmi, dovendo regolare in autonomia le
+                            priorità delle consegne.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    
+                        <p class="esperienze__title">Stage Aiuto Cuoco</p>
+                        <p>2018 - 2019</p>
+                    <div class="esperienze__desc">
+                        <p>
+                            Mansioni di aiuto cuoco, lavapiatti, impiattamento.
+                            Durante questo stage ho avuto modo di imparare a
+                            lavorare in gruppo e a gestire situazioni frenetiche e
+                            stressanti, tecniche di cooperazione e comunicazione.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Conoscenze Informatiche -->
+        <section id="skills">
+            <h2>Conoscenze Informatiche</h2>
+            <div class="skills__container">
+                <!-- Liguaggio di programmazione -->
+                <span class="program-lang">HTML</span>
+                <span class="program-lang">CSS</span>
+                <span class="program-lang">Javascript</span>
+                <span class="program-lang">React.js</span>
+                <span class="program-lang">Bootstrap</span>
+                <span class="program-lang">Tailwind</span>
+                <span class="program-lang">SASS</span>
+                <span class="program-lang">SQL</span>
+                <span class="program-lang">PHP</span>
+                <span class="program-lang">Laravel</span>
+                <span class="program-lang">Python</span>
+            </div>
+        </section>
+
+        <!-- Contatti -->
+        <section id="contatti">
+            <h2>Contatti</h2>
+                <ul>
+                    <li>
+                        <a href=""><i class="bi bi-linkedin"></i> Linkedin</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-github"></i> Github</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-envelope-fill"></i> Email</a>
+                    </li>
+                </ul>
+                <p class="sito">
+                    <a href="https://www.cieloartuso.com/" target="_blank">Visita il mio sito!</a>
+                </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="copy">
+            &copy;2025 Developed by Cielo Artuso
+        </div>
+    </footer>
+</body>
+
+</html>
