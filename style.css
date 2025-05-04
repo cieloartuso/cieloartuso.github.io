@@ -25,6 +25,16 @@ ul {
     list-style: none;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #2e2e2e;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
 h2 {
     margin-bottom: 30px;
     color: rgb(232, 157, 60);
@@ -33,25 +43,17 @@ h2 {
     font-size: 1.6em;
 }
 
-body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #2e2e2e;
-    color: white;
-    letter-spacing: 2px;
-}
-
 section:not(#hero__section) {
-    background-color: #2e2e2e;
     z-index: 3;
     position: relative;
     padding: 30px 40px;
 }
 
-h1 {
-    font-size: 2.5em;
+#main-content{
+    background-color: #2e2e2e;
+    z-index: 3;
+    position: relative;
 }
-
-
 
 
 /**** Header ****/
@@ -417,22 +419,24 @@ section#info {
     font-style: italic;
 }
 .formazione__card__description {
-    margin-top: 20px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
     font-size: 0.85em;
+    margin-top: 20px;
 }
-
-/* Hamburger */
-.formazione__card__description{
-    display: none;
-}
-#galdus__toggle:checked+#galdus__icon+#galdus__desc{
-    display: block;
+#galdus__toggle:checked + #galdus__icon + #galdus__desc {
+    max-height: 500px;
+    opacity: 1;
 }
 #ifoa__toggle:checked+#ifoa__icon+#ifoa__desc{
-    display: block;
+    max-height: 500px;
+    opacity: 1;
 }
 #iscuola__toggle:checked+#iscuola__icon+#iscuola__desc{
-    display: block;
+    max-height: 500px;
+    opacity: 1;
 }
 
 
